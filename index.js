@@ -23,7 +23,7 @@ const clienttrue=CreateConnection()
 // Route for the root URL
 
 app.get("/", (req, res) => {
-  res.send("Hi this are my end points , /room  , /customer , /roomlist , /customer_booked_room , /listcustomer");
+  res.send("Hi this are my end points  /roomlist , /customer_booked_room , /listcustomer");
 });
 
 app.post("/room",async (req,res)=>{
